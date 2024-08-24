@@ -1,7 +1,5 @@
 // Add School API
 
-const db = require('../config/db');
-
 exports.addSchool = async (req, res) => {
     const { name, address, latitude, longitude } = req.body;
 
